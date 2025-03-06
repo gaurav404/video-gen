@@ -1,0 +1,58 @@
+
+mjx-math.MJX-TEX{
+    white-space: normal !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    line-height: .5rem;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: .5rem; */
+    mjx-mn {
+        white-space: nowrap;
+    }
+}
+
+span.katex math{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+span.katex math[display='block'] {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+span.katex math semantics {
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+span.katex math semantics * {
+    font-size: 14px;
+}
+
+span.katex * {
+    margin-top: 0;
+    font-size: 16px;
+}
+  
+mrow > * {
+    padding-left: 1.5px;
+}
+
+mjx-container {
+    /* width: 100%; */
+}
+
+.MathJax {
+   display: inline-flex;
+}
+
+mjx-container.MathJax * {
+    line-height: 12px;
+}
+
+mjx-frac {
+    font-size: 20px;
+}

@@ -1,0 +1,75 @@
+.markdownWrapper *{
+  margin-top: 1rem;
+  line-height: 22px;
+}
+
+.markdownWrapper > span, .markdownWrapper > span > span, .markdownWrapper > span > span > div, .markdownWrapper > span > span > div, .markdownWrapper > span > span > div > p {
+  margin-top: 0;
+}
+
+.markdownWrapper > div, .markdownWrapper > div > p{
+  margin-top: 0;
+}
+
+.markdownWrapper > div:first-child, .markdownWrapper > div:first-child > p:first-child {
+  margin-top: 0;
+}
+
+
+.markdownContainer mjx-container,.markdownContainer mjx-container * {
+  margin-top: 0;
+}
+
+
+.markdownContainer {
+  width: 100%;
+}
+
+.markdownContent ul li {
+  list-style-type: disc;
+}
+
+.markdownContent ol li {
+  list-style-type: decimal;
+}
+.markdownContent table thead {
+  background-color: var(--bg-secondary);
+}
+.markdownContent table tbody tr{
+  background-color: var(--bg-tertiary);
+}
+
+.markdownContent table tbody tr{
+  text-align: center;
+}
+
+.markdownContent table tbody tr td{
+  padding: 4px;
+}
+
+.markdownContent h1 {
+  font-size: xx-large;
+}
+
+.markdownContent h2 {
+  font-size: x-large;
+}
+
+.markdownContent blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 1em 10px 0.1em;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  color: black;
+}
+
+.markdownContent img {
+  max-width: 80%;
+  height: auto;
+}
+
+.heading1 {
+  /* Styles for h1 */
+  font-size: 80px;
+}
