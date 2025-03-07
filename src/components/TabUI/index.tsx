@@ -69,7 +69,7 @@ const QuestionTab = () => {
               />
           </div>
           <div className="absolute bottom-0 right-0">
-            <LottieShow/>
+            <LottieShow url={"LottieShow"}/>
           </div>
         </div>
         {/* <input type="file" accept="image/*" className="border-1 bg-primary" onChange={handleImageUpload} /> */}

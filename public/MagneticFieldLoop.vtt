@@ -1,0 +1,178 @@
+WEBVTT
+
+00:00:04.000 --> 00:00:05.838
+Let's solve a problem about the magnetic
+
+00:00:05.938 --> 00:00:08.262
+field created by a current-carrying circular loop.
+
+00:00:08.362 --> 00:00:11.738
+We're given a circular loop with radius 3 centimeters.
+
+00:00:11.838 --> 00:00:14.634
+At a point 4 centimeters away from the center
+
+00:00:14.734 --> 00:00:18.110
+along the axis, the magnetic field is 54 micro-teslas.
+
+00:00:18.210 --> 00:00:21.454
+Our goal is to find the magnetic field at the center of the loop.
+
+00:00:22.554 --> 00:00:24.840
+To solve this problem, we need two key formulas
+
+00:00:24.940 --> 00:00:27.835
+for the magnetic field of a circular current-carrying loop.
+
+00:00:27.935 --> 00:00:30.197
+For a point on the axis at distance x from
+
+00:00:30.297 --> 00:00:33.347
+the center, the magnetic field is given by this formula.
+
+00:00:33.447 --> 00:00:36.638
+And at the center of the loop, the formula simplifies to this.
+
+00:00:36.738 --> 00:00:39.586
+We know the magnetic field at the point on the axis, so
+
+00:00:39.686 --> 00:00:42.803
+we'll use the first formula to find the current in the loop.
+
+00:00:42.903 --> 00:00:45.377
+Then we'll use that current in the second formula
+
+00:00:45.477 --> 00:00:47.531
+to find the magnetic field at the center.
+
+00:00:48.631 --> 00:00:51.352
+Let's first look at where the student solution went wrong.
+
+00:00:51.452 --> 00:00:53.763
+The student used the correct formula for the
+
+00:00:53.863 --> 00:00:55.845
+magnetic field at a point on the axis.
+
+00:00:55.945 --> 00:00:59.465
+However, the student made a critical error. They wrote 24
+
+00:00:59.565 --> 00:01:03.212
+micro-tesla instead of the correct value of 54 micro-tesla.
+
+00:01:03.312 --> 00:01:06.360
+This error led to calculating an incorrect current, and
+
+00:01:06.460 --> 00:01:09.507
+consequently an incorrect magnetic field at the center.
+
+00:01:09.607 --> 00:01:11.623
+Let's now solve the problem correctly.
+
+00:01:11.723 --> 00:01:14.314
+Let's solve the problem correctly, step by step.
+
+00:01:14.414 --> 00:01:16.116
+First, we'll list the known values.
+
+00:01:16.414 --> 00:01:19.347
+Using the formula for the magnetic field at a point on
+
+00:01:19.447 --> 00:01:21.930
+the axis, we can find the current in the loop.
+
+00:01:22.014 --> 00:01:23.429
+Substituting our known values.
+
+00:01:24.014 --> 00:01:26.369
+Simplifying and solving for I times mu naught.
+
+00:01:26.414 --> 00:01:30.676
+Multiply both sides by 250 times 10 to the negative 6.
+
+00:01:30.747 --> 00:01:33.001
+Divide both sides by 9 times 10 to the
+
+00:01:33.101 --> 00:01:35.480
+negative 4 to isolate mu naught times I.
+
+00:01:35.547 --> 00:01:37.294
+Now we can use the formula for the
+
+00:01:37.394 --> 00:01:39.522
+magnetic field at the center of the loop.
+
+00:01:39.614 --> 00:01:44.660
+So the magnetic field at the center of the loop is 250 micro-teslas.
+
+00:01:44.747 --> 00:01:48.670
+The correct answer is option A, 250 micro-teslas.
+
+00:01:49.747 --> 00:01:52.569
+Let's visualize how the magnetic field changes with
+
+00:01:52.669 --> 00:01:54.689
+distance from the center of the loop.
+
+00:01:54.747 --> 00:01:57.419
+On this graph, the x-axis represents the distance
+
+00:01:57.519 --> 00:01:59.625
+from the center along the axis, and the
+
+00:01:59.725 --> 00:02:02.850
+y-axis shows the magnetic field strength in micro-teslas.
+
+00:02:02.947 --> 00:02:05.405
+The magnetic field is strongest at the
+
+00:02:05.505 --> 00:02:08.098
+center of the loop, at 250 micro-teslas.
+
+00:02:08.147 --> 00:02:11.223
+As we move away from the center along the axis,
+
+00:02:11.323 --> 00:02:15.481
+the field strength decreases. At 4 centimeters from the center,
+
+00:02:15.581 --> 00:02:18.522
+it's 54 micro-teslas as given in the problem.
+
+00:02:18.614 --> 00:02:21.885
+This graph clearly shows that the magnetic field at the center of
+
+00:02:21.985 --> 00:02:25.567
+a current-carrying loop is much stronger than at points along its axis.
+
+00:02:26.614 --> 00:02:28.786
+Let's summarize what we've learned from this problem.
+
+00:02:28.880 --> 00:02:33.020
+First, the student made an error by using 24 micro-teslas instead of
+
+00:02:33.120 --> 00:02:37.322
+the correct value of 54 micro-teslas, leading to an incorrect answer.
+
+00:02:37.414 --> 00:02:41.828
+By correctly substituting the given value of 54 micro-teslas, we found
+
+00:02:41.928 --> 00:02:45.568
+that the magnetic field at the center is 250 micro-teslas.
+
+00:02:45.614 --> 00:02:48.351
+This problem demonstrates that the magnetic field is
+
+00:02:48.451 --> 00:02:51.135
+strongest at the center of a current-carrying loop,
+
+00:02:51.235 --> 00:02:53.481
+and decreases with distance along the axis.
+
+00:02:53.547 --> 00:02:57.470
+The correct answer is option A, 250 micro-teslas.
+
+00:02:57.547 --> 00:03:01.797
+Remember to always double-check your values when substituting into formulas,
+
+00:03:01.897 --> 00:03:05.232
+as small errors can lead to significantly different results.

@@ -10,7 +10,8 @@ export const API_URLS = {
 	SEND_REPLY: "api/v1/doubts/DOUBT_ID/reply",
 	SUPPORT: "api/v1/doubts/DOUBT_ID/mark_support",
 	REASSIGN_DOUBT: "api/v1/doubts/DOUBT_ID/reassign_doubt",
-	SUBMIT_QUESTION : "api/v1/v6/doubts/submit"
+	SUBMIT_QUESTION : "api/v1/v6/doubts/submit",
+	FETCH_QUESTION: 'api/v1/doubts/content/data',
 }
 
-export const API_BASE_URL = "http://doubt-bff.co-200932-http.allen-stage.in:80/"
+export const API_BASE_URL = "http://doubt-bff.co-554708-http.allen-stage.in:80/"

@@ -1,16 +1,20 @@
 import { Doubt } from "@/types";
 import { useEffect, useState } from "react";
 import { useDoubtContext } from "../Contexts/DoubtContext";
+import { useRouter } from "next/navigation";
 
 
 type Props = {
   handleDoubtSelect: () => void;
 };
 export const QuestionList = ({ handleDoubtSelect }: Props) => {
-  const { setSelectedDoubt} = useDoubtContext()
-  const [doubts, setDoubts] = useState<Doubt[]>([]);
+  const { setSelectedDoubt, doubts: allDoubts, addDoubt} = useDoubtContext()
+  const [doubts, setDoubts] = useState<Doubt[]>(allDoubts);
+  const router = useRouter();
   const handleSelection = (selectedDoubt: Doubt) => {
-    setDoubts(
+    addDoubt(
+        "UPDATE_ALL",
+        null,
         doubts.map((doubt) => ({
             ...doubt,
             isActive: doubt.id === selectedDoubt.id,
@@ -18,25 +22,12 @@ export const QuestionList = ({ handleDoubtSelect }: Props) => {
     );
     handleDoubtSelect()
     setSelectedDoubt(selectedDoubt)
+    router.replace(`?did=${selectedDoubt.id}`)
   }
   useEffect(() => {
-    setDoubts([
-      {
-        id: 1,
-        text: "How do I implement pagination in React with a REST API?",
-        timestamp: "Just now",
-        status: "pending",
-        isActive: true,
-      },
-      {
-        id: 2,
-        text: "What's the difference between useEffect and useLayoutEffect in React?",
-        timestamp: "2 hours ago",
-        status: "generated",
-        isActive: false,
-      },
-    ]);
-  }, []);
+    setDoubts(allDoubts)
+  }, [allDoubts]);
+  console.log("test all doubts", allDoubts)
   return (
     <div className="overflow-y-auto flex-grow">
       <ul className="py-2">

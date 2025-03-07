@@ -8,8 +8,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, poster, subtitles }) => 
   return (
     <div className="h-full w-full flex items-center">
       <video controls className="w-full max-h-full" poster={poster} autoPlay preload="metadata">
-        <source src={src} type="video/mp4" />
-        
+        <source src={src}/>
         {subtitles &&
           subtitles.map((sub, index) => (
             <track

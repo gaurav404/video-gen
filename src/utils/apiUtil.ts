@@ -108,10 +108,26 @@ export const getUploadedUrl = async (fileId: string) => {
 
 export const submitQuestion = async (text: string, image: string) => {
 	const url = (API_BASE_URL + API_URLS.SUBMIT_QUESTION)
-	getAxiosInstance()
+	return getAxiosInstance()
 		.post(url, {
 			text: text,
 			image: image
+		})
+		.then((res: AxiosResponse<{ data: { url: string } }>) => {
+			const data = res?.data?.data
+			if (data) {
+				return data
+			} else {
+				throw new Error("error while get uploaed url")
+			}
+		})
+}
+
+export const getDoubtData = async (doubt_id: string) => {
+	const url = (API_BASE_URL + API_URLS.FETCH_QUESTION)
+	return getAxiosInstance()
+		.post(url, {
+			doubt_id: doubt_id
 		})
 		.then((res: AxiosResponse<{ data: { url: string } }>) => {
 			const data = res?.data?.data
